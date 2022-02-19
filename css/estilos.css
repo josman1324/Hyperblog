@@ -1,25 +1,32 @@
 body
 {
-    color: blue;
-    text-align:left;
+    background:rgb(54, 50, 50);
+    color: rgb(25, 25, 41);
+    text-align:center;
     font-family: arial;
     font-size:16px;
     margin:0;
     padding:0;
 }
-#cabecera{
-    background-color:#33A;
-    color:rgb(228, 233, 236);
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+#cabecera
+{
+    background-color:rgb(39, 39, 151);
+    box-shadow: 0px 2px 20px 0px black;
+    color:white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
-
+    padding: 0.5em 0 0.5em 2em;
 }
+#cabecera #logo
+{
+width: 80px;
+vertical-align: middle;
+}
+
 #cabecera #tagline
 {
     padding:0 0 0 1em;
-    font-weight:initial;
+    font-weight:normal;
     font-size: 0.9em;
 }
 #container 
@@ -34,4 +41,8 @@ margin:0 auto;
 #container h1
 {
     font-size:20px;
+}
+#post{
+    background: white;
+    padding: 1em;
 }
