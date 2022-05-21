@@ -1,4 +1,4 @@
-### Proyecto Josman :tw-1f60e:
+### Proyecto Josman
 
 
 
